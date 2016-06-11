@@ -17,9 +17,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "files": [
-    "src/bootstrap.ts",
-    "src/component/greeting/greeting.ts"
   ]
 }
