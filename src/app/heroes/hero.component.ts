@@ -8,5 +8,9 @@ import { Hero } from './hero.model';
 })
 
 export class HeroComponent {
+    // Data flows into a component via inputs expressed by decorators like this
     @Input() hero: Hero;
+
+    // Data flows out of a component via outputs expressed by decorators like this
+    // @Output() rate: EventEmitter;
 }
